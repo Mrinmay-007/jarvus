@@ -15,11 +15,17 @@ uvicorn main:app --reload
 python main2.py
 
 
-
-echo "# jarvus" >> README.md
 git init
+git remote add origin https://github.com/Mrinmay-007/jarvus.git
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Mrinmay-007/jarvus.git
 git push -u origin main
+
+
+
+
+git status
+git add .
+git commit -m "Updated"
+git push origin main

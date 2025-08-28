@@ -1,0 +1,6 @@
+myenv
+*.pyc
+__pycache__/
+main2.py
+test2.py
+client.py
